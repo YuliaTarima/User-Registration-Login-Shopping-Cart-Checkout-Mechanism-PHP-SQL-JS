@@ -1,0 +1,143 @@
+@CHARSET "UTF-8";
+
+table, tr, td, th {
+    /*gradient bg*/
+    background-image: -ms-linear-gradient(right, #fff 0%, #fbfbfb 100%); /* IE10 Consumer Preview */
+    background-image: -moz-linear-gradient(right, #fff 0%, #fbfbfb, 100%); /* Mozilla Firefox */
+    background-image: -o-linear-gradient(right, #fff 0%, #fbfbfb, 100%); /* Opera */
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #fff), color-stop(1, #fbfbfb )); /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-linear-gradient(right, #fff 0%, #fbfbfb,100%); /* Webkit (Chrome 11+) */
+    background-image: linear-gradient(to left, #fff 0%, #fbfbfb, 100%); /* W3C Markup, IE10 Release Preview */
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+table {
+    /*border-radius*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    /*h-shadow v-shadow blur spread color inset */
+    -moz-box-shadow: 3px 0px 10px #e4ebeb;
+    -webkit-box-shadow: 3px 0px 10px #e4ebeb;
+    box-shadow: 3px 0px 10px #e4ebeb;
+
+}
+.blueform {
+    margin: 30px auto;
+    padding: 35px 30px 25px 30px;
+    width: 550px;
+    font-size: 9pt;
+    color: #59504E;
+    text-align: center;
+    /*background-color: #fbfbfb;*/
+    /*gradient bg*/
+    background-image: -ms-linear-gradient(right, #fff 0%, #fbfbfb 100%); /* IE10 Consumer Preview */
+    background-image: -moz-linear-gradient(right, #fff 0%, #fbfbfb, 100%); /* Mozilla Firefox */
+    background-image: -o-linear-gradient(right, #fff 0%, #fbfbfb, 100%); /* Opera */
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #fff), color-stop(1, #fbfbfb )); /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-linear-gradient(right, #fff 0%, #fbfbfb, 100%); /* Webkit (Chrome 11+) */
+    background-image: linear-gradient(to left, #fff 0%, #fbfbfb,100%); /* W3C Markup, IE10 Release Preview */
+    border-top: 1px solid #ccc;
+    border-right: 8px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #7dabab;
+    /*h-shadow v-shadow blur spread color inset */
+    -moz-box-shadow: 3px 0px 10px #e4ebeb;
+    -webkit-box-shadow: 3px 0px 10px #e4ebeb;
+    box-shadow: 3px 0px 10px #e4ebeb;
+    /*border-radius*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+input, select {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    height: 25px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #7dabab;
+    -webkit-box-shadow: 0px 0px 8px #e4ebeb;
+    -moz-box-shadow: 0px 0px 8px #e4ebeb;
+    box-shadow: 0px 0px 8px #e4ebeb;
+}
+.inlineInput {
+    display: inline;
+}
+textarea#message {
+    width: 400px;
+    height: 150px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #7dabab;
+}
+
+#message:focus, input:focus {
+    border: 1px solid #7dabab !important;
+    background-color: #fbfbfb;
+    outline: none !important;
+}
+
+form input[type="submit"], form input[type="reset"] {
+    width: auto;
+    background: #7dabab;
+    color: #fff;
+    height: 30px;
+    border: 1 p solid #ccc;
+    display: inline-block;
+    margin: 0;
+}
+
+form input[type="submit"]:hover, form input[type="reset"]:hover {
+    background: #fff;
+    color: #7dabab;
+}
+
+.centered, body {
+    margin: 20px auto 0 auto;
+    padding: 0;
+    color: #59504E;
+    text-align: center;
+}
+.textLeft {
+    position: relative;
+    text-align: left;
+    width: 590px;
+    margin: 0 auto;
+}
+.labels {
+    position: relative;
+    text-align: left;
+    width: 910px;
+    margin: 0 auto;
+}
+
+.right {
+    position: relative;
+    text-align: right;
+    /*float: right;*/
+}
+.checkBox {
+    margin: 0;
+    float: left;
+}
+
+h1, h2 {
+    color: #7dabab;
+}
+
+h3 {
+    color: #59504E;
+}
+legend {
+    color: #7dabab;
+    font-size: large;
+    font-weight: bold;
+}
